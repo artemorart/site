@@ -1,0 +1,58 @@
+
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 800px;
+	color: darkred;
+	font-family: 'PT Sans Narrow', sans-serif;
+	
+}
+p{
+	text-align: justify;
+	line-height: 24px;
+	text-indent: 24px;
+}
+.img1{
+width: 300px;
+
+}
+figure{
+	border: solid 2px indianred;
+	padding: 20px;
+	float: left;
+
+}
+.img2 {
+	width: 150px;
+}
+.img3 {
+	width: 200px;
+}
+.img4 {
+	width: 213px ;
+}
+
+h2 {
+	color: darkred;
+}
+.img5 { width:150px }
+.fig1 {float: right;}
+button{
+	width: 100px;
+	height: 50px;
+	color: white;
+	background: darkred;
+	border: solid 2px whitesmoke;
+}
+button:hover{
+	color: darkred;
+	background: white;
+	border: solid 3px darkred;
+}
+a {
+	text-decoration: none;
+}
+.lin {
+	float: right;
+}

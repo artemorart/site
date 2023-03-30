@@ -1,0 +1,18 @@
+body{
+	background-color: lightpink ;
+
+}
+p{
+	font-size: 50px;
+	font-family: "";
+
+}
+.first{font-family: 'Julee', cursive;
+color: blue;}
+
+.second{font-family: 'Pacifico', cursive;
+	color: darkkhaki;
+}
+.third{font-family: 'Roboto Condensed', sans-serif;
+	color: darkgreen;
+}

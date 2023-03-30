@@ -1,0 +1,80 @@
+body{
+	background-color:lightpink ;
+}
+P{
+	font-size: 50px;
+	color: purple ;
+	background-color: lightsalmon;
+
+}
+.ex1{
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: 600;
+	font-style: italic;
+}
+.ex2 {font-family: 'Saira Condensed', sans-serif;
+	color: yellow;
+
+}
+.ex3 {
+	font-family: Arial, Halvetica, sans-serif;
+	font-variant: small-caps;
+}
+.ex4 {
+	font-family: 'Courgette', cursive;;
+}
+.ex5 {
+	font-family: 'Parisienne', cursive;;
+	color: unset;
+}
+.ex6{
+	text-shadow: 0 0 10px red;
+}
+.ex7{
+	text-shadow: 1px 1px yellow;
+	text-transform:uppercase ;
+	letter-spacing: 5px;
+}
+.ex8{
+	  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  color: white;
+  font: 2.5em Georgia, serif;
+  background-color: lightpink;
+}
+.ex9 {
+	text-decoration: underline;
+	text-decoration-style: wavy ;
+	text-underline-position: under;
+	text-decoration-color: yellow ;
+	height: 100px;
+}
+.fl {
+	font-size: 2em;
+	color: deeppink;
+	font-family:'Parisienne', cursive; ;
+	text-shadow: 1px 1px darkred;
+}
+.ex10 {
+	font-family: 'Saira Condensed', sans-serif;
+	text-shadow: 2px 2px yellow, 0 0 20px darkred;
+	color: white;
+	font-size: 200px;
+	text-transform: lowercase;
+}
+.ex11 {
+	font-kerning: normal;
+	font-size: 2em;
+	font-style: italic;
+	font-variant-caps: all-small-caps;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: underline overline #FF3028;
+	text-decoration-thickness:2px ;
+	text-emphasis: 'x';
+	text-emphasis-color: yellow;
+text-shadow: 1px 1px 6px red, 0 0 1em yellow, 0 0 0.2em blue;
+text-underline-offset: 8px;  
+}
+.ex12 {
+	font-family: 'Shadows Into Light', cursive;
+}
