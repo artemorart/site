@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GRADIENT</title>
+	<style type="text/css">
+		body{background: lightcyan;}
+		p{color: floralwhite;
+			font-size: 0.5in;
+			background: linear-gradient(pink,purple,yellow);}
+		div{width: 300px; height: 300px; margin: 20px; float: left}
+	</style>
+</head>
+<body>
+<p>We are studying gradients</p>
+<div style="background: linear-gradient(pink,yellow,purple);"></div>
+<div style="background: linear-gradient(to left,pink,yellow,purple);"></div>
+<div style="background: linear-gradient(45deg,pink,yellow,purple);"></div>
+<div style="background: linear-gradient(225deg,pink,yellow,purple);"></div>
+<div style="background: linear-gradient(45deg,pink 60%,yellow,purple);"></div>
+<div style="background: linear-gradient(blue 50%,yellow 50%); width: 450px;"></div>
+<div style="background: linear-gradient(red 25%,darkblue 25% 50%,yellow 50% 75%,green 75% 100%); width: 450px;"></div>
+<div style="background: radial-gradient(pink 60%,yellow,purple);"></div>
+<div style="background: radial-gradient(pink 20%,yellow,purple);"></div>
+<div style="background: radial-gradient(circle at 100px 100px,pink 20%,yellow,purple);"></div>
+<div style="background: radial-gradient(pink 20%,yellow,purple);border-radius: 10%;"></div>
+<div style="background: radial-gradient(circle at 0px,purple 40%,yellow 40%)
+"></div>
+<div style="background: radial-gradient(pink 20%,yellow,purple); width:150px;"></div>
+<div style="background: conic-gradient(pink 20%,yellow,purple);"></div>
+<div style="background: conic-gradient(lightcyan 25%, pink 25% 50%,yellow 50% 75%,purple 75% 100%);"></div>
+<div style=" background: linear-gradient(
+      217deg,
+      rgba(255, 192, 203, 0.8),
+      rgba(255, 255, 0, 0) 70.71%
+    ), linear-gradient(127deg, rgba(0, 255, 255, 0.8), rgba(199, 21, 133, 0) 70.71%),
+    linear-gradient(336deg, rgba(218, 112, 214, 0.8), rgba(255, 215, 0, 0) 70.71%);
+"></div>
+<div style=" background: repeating-linear-gradient(
+      190deg,
+      rgba(255, 0, 0, 0.5) 40px,
+      rgba(255, 153, 0, 0.5) 80px,
+      rgba(255, 255, 0, 0.5) 120px,
+      rgba(0, 255, 0, 0.5) 160px,
+      rgba(0, 0, 255, 0.5) 200px,
+      rgba(75, 0, 130, 0.5) 240px,
+      rgba(238, 130, 238, 0.5) 280px,
+      rgba(255, 0, 0, 0.5) 300px
+    ), repeating-linear-gradient(
+      -190deg,
+      rgba(255, 0, 0, 0.5) 30px,
+      rgba(255, 153, 0, 0.5) 60px,
+      rgba(255, 255, 0, 0.5) 90px,
+      rgba(0, 255, 0, 0.5) 120px,
+      rgba(0, 0, 255, 0.5) 150px,
+      rgba(75, 0, 130, 0.5) 180px,
+      rgba(238, 130, 238, 0.5) 210px,
+      rgba(255, 0, 0, 0.5) 230px
+    ), repeating-linear-gradient(23deg, red 50px, orange 100px, yellow 150px, green
+        200px, blue 250px, indigo 300px, violet 350px, red 370px);"> </div>
+        <div style="background:
+  radial-gradient(circle at 100% 50%, transparent 20%, #00D4F0 21%,
+    #00D4F0 34%, transparent 35%, transparent),
+  radial-gradient(circle at 0% 50%, transparent 20%, #00D4F0 21%, #00D4F0 34%, transparent 35%, transparent) 0 -50px;
+background-color: #EEEEEE;
+background-size: 75px 100px;"></div>
+<div style="background-color: white;
+background-image:
+  linear-gradient(45deg, #ccc 25%, transparent 25%),
+  linear-gradient(-45deg, #ccc 25%, transparent 25%),
+  linear-gradient(45deg, transparent 75%, #ccc 75%),
+  linear-gradient(-45deg, transparent 75%, #ccc 75%);
+background-size:20px 20px;
+background-position: 0 0, 0 10px, 10px -10px, -10px 0px;"></div>
+<div style="background: repeating-linear-gradient(#e66465 30px, #9198e5 50px);"></div>
+
+</body>
+</html>
